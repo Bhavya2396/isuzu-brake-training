@@ -16,8 +16,8 @@ const modelConfigs = {
   'land-cruiser': {
     path: '/models/vehicles/land-cruiser/scene.gltf',
     scale: 1.0,
-    position: [0, 0.1, 0] as [number, number, number],
-    rotation: [0, -30, 0] as [number, number, number],
+    position: [0, 0.35, 0] as [number, number, number],
+    rotation: [0, 0, 0] as [number, number, number],
     interactive: false,
     partsConfig: undefined
   },
@@ -120,11 +120,13 @@ function CarLiftOverlay() {
 
   if (!showCarLift) return null;
 
+  // Position lift so blue posts are on left/right sides of car
+  // Yellow arms extend under the car's chassis
   return (
     <group 
-      position={[-0.3, -1.1, 0]} 
-      scale={0.85}
-      rotation={[0, Math.PI / 2, 0]}
+      position={[0.5, -0.95, 0.1]} 
+      scale={1.1}
+      rotation={[0, 0, 0]}
     >
       <primitive object={clonedScene} />
     </group>
