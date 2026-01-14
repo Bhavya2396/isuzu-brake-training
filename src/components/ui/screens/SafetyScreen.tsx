@@ -4,6 +4,7 @@ import { ChevronRight, ShieldCheck, Check, Volume2, VolumeX } from 'lucide-react
 import { useStore } from '../../../store/useStore';
 import { safetyItems } from '../../../data/steps';
 import { voiceover, narrations } from '../../../services/voiceoverService';
+import { DemoOverlay } from '../shared/DemoOverlay';
 
 const safetyFocus: Record<string, { 
   position: [number, number, number]; 
@@ -26,7 +27,16 @@ export function SafetyScreen() {
   
   const [voiceEnabled, setVoiceEnabled] = useState(true);
   const [activeItem, setActiveItem] = useState<string | null>(null);
+  const [activeDemo, setActiveDemo] = useState<string | null>(null);
   const [hasPlayedIntro, setHasPlayedIntro] = useState(false);
+
+  // Map safety items to demo illustrations
+  const safetyDemoMap: Record<string, string> = {
+    vehicle_secured: 'vehicle-lifted',
+    parking_brake: 'parking-brake',
+    ppe: 'ppe-worn',
+    wheel_chocks: 'wheel-chocks'
+  };
 
   // Play intro
   useEffect(() => {
@@ -43,11 +53,13 @@ export function SafetyScreen() {
     // Toggle active
     if (activeItem === key) {
       setActiveItem(null);
+      setActiveDemo(null);
       setShowCarLift(false);
       return;
     }
     
     setActiveItem(key);
+    setActiveDemo(safetyDemoMap[key] || null);
     
     // Camera focus
     const focus = safetyFocus[key];
@@ -100,6 +112,13 @@ export function SafetyScreen() {
       exit={{ opacity: 0 }}
       className="absolute inset-0 z-10 flex items-center justify-end pointer-events-none"
     >
+      {/* Animated SVG Demo Overlay */}
+      {activeDemo && (
+        <div className="pointer-events-none">
+          <DemoOverlay activeDemo={activeDemo} />
+        </div>
+      )}
+      
       <div className="pointer-events-auto w-full max-w-sm mr-6">
         <motion.div
           initial={{ opacity: 0, x: 30 }}

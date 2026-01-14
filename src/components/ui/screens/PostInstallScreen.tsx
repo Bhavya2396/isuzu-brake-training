@@ -4,6 +4,7 @@ import { ChevronRight, ClipboardCheck, Check, Volume2, VolumeX } from 'lucide-re
 import { useStore } from '../../../store/useStore';
 import { postInstallChecks } from '../../../data/steps';
 import { voiceover, narrations } from '../../../services/voiceoverService';
+import { DemoOverlay } from '../shared/DemoOverlay';
 
 export function PostInstallScreen() {
   const nextScreen = useStore(state => state.nextScreen);
@@ -67,6 +68,11 @@ export function PostInstallScreen() {
       exit={{ opacity: 0 }}
       className="absolute inset-0 z-10 flex items-center justify-end pointer-events-none"
     >
+      {/* Animated SVG Demo - Pedal Pump Animation */}
+      <div className="pointer-events-none">
+        <DemoOverlay activeDemo="pedal-pump" />
+      </div>
+      
       <div className="pointer-events-auto w-full max-w-sm mr-6">
         <motion.div
           initial={{ opacity: 0, x: 30 }}

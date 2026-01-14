@@ -4,6 +4,7 @@ import { ChevronRight, ChevronLeft, Layers, Volume2, VolumeX, RotateCcw } from '
 import { useStore } from '../../../store/useStore';
 import { trainingSteps, getStepByScreen } from '../../../data/steps';
 import { voiceover, narrations } from '../../../services/voiceoverService';
+import { DemoOverlay } from '../shared/DemoOverlay';
 
 // Maps instructions to 3D actions (explode, focus, etc.)
 const instructionActions: Record<string, Record<number, { 
@@ -43,6 +44,14 @@ const instructionActions: Record<string, Record<number, {
   }
 };
 
+// Map steps to demo illustrations
+const stepDemoMap: Record<string, string> = {
+  step1: 'lug-nut-pattern',
+  step2: 'caliper-support',
+  step4: 'pad-orientation',
+  step5: 'torque-spec'
+};
+
 export function StepScreen() {
   const currentScreen = useStore(state => state.currentScreen);
   const nextScreen = useStore(state => state.nextScreen);
@@ -54,6 +63,7 @@ export function StepScreen() {
   const [activeInstruction, setActiveInstruction] = useState<number | null>(null);
   const [voiceEnabled, setVoiceEnabled] = useState(true);
   const [hasPlayedIntro, setHasPlayedIntro] = useState(false);
+  const [showDemo, setShowDemo] = useState(true);
 
   const step = getStepByScreen(currentScreen);
   
@@ -61,6 +71,7 @@ export function StepScreen() {
   useEffect(() => {
     setActiveInstruction(null);
     setHasPlayedIntro(false);
+    setShowDemo(true);
     voiceover.stop();
   }, [currentScreen]);
 
@@ -155,6 +166,8 @@ export function StepScreen() {
   const stepNumber = trainingSteps.findIndex(s => s.screen === currentScreen) + 1;
   const totalSteps = trainingSteps.length;
 
+  const activeDemo = showDemo ? stepDemoMap[currentScreen] : null;
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -162,6 +175,13 @@ export function StepScreen() {
       exit={{ opacity: 0 }}
       className="absolute inset-0 z-10 flex items-center justify-end pointer-events-none"
     >
+      {/* Animated SVG Demo Overlay */}
+      {activeDemo && (
+        <div className="pointer-events-auto">
+          <DemoOverlay activeDemo={activeDemo} />
+        </div>
+      )}
+      
       <div className="pointer-events-auto w-full max-w-sm mr-6">
         <motion.div
           key={currentScreen}
