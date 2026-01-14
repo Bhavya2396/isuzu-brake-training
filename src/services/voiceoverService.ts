@@ -2,9 +2,7 @@
 
 class VoiceoverService {
   private synth: SpeechSynthesis;
-  private currentUtterance: SpeechSynthesisUtterance | null = null;
   private britishVoice: SpeechSynthesisVoice | null = null;
-  private isInitialized: boolean = false;
   private enabled: boolean = true;
 
   constructor() {
@@ -26,8 +24,6 @@ class VoiceoverService {
       ) || voices.find(voice =>
         voice.lang.startsWith('en')
       ) || voices[0];
-      
-      this.isInitialized = true;
     };
 
     if (this.synth.getVoices().length > 0) {
@@ -54,7 +50,6 @@ class VoiceoverService {
     utterance.volume = options?.volume ?? 0.8;
     utterance.lang = 'en-GB';
 
-    this.currentUtterance = utterance;
     this.synth.speak(utterance);
 
     return new Promise<void>((resolve) => {
@@ -65,7 +60,6 @@ class VoiceoverService {
 
   stop() {
     this.synth.cancel();
-    this.currentUtterance = null;
   }
 
   pause() {

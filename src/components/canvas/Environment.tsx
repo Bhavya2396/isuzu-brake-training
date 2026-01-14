@@ -1,9 +1,6 @@
-import { useRef } from 'react';
 import { Environment as DreiEnvironment, ContactShadows, Grid } from '@react-three/drei';
-import * as THREE from 'three';
 
 export function Environment() {
-  const floorRef = useRef<THREE.Mesh>(null);
   
   return (
     <>

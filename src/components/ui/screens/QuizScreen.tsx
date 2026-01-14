@@ -9,7 +9,6 @@ export function QuizScreen() {
   const nextScreen = useStore(state => state.nextScreen);
   const prevScreen = useStore(state => state.prevScreen);
   const submitQuizAnswer = useStore(state => state.submitQuizAnswer);
-  const quizAnswers = useStore(state => state.quizAnswers);
   
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
@@ -18,7 +17,6 @@ export function QuizScreen() {
   const [hasPlayedIntro, setHasPlayedIntro] = useState(false);
 
   const currentQuestion = quizQuestions[currentQuestionIndex];
-  const existingAnswer = quizAnswers.find(a => a.questionId === currentQuestion.id);
 
   // Play intro
   useEffect(() => {

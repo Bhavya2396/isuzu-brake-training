@@ -179,10 +179,6 @@ export function ModelViewer({
     }
   };
 
-  // Get selected/hovered part info
-  const activePart = selectedPart || hoveredPart;
-  const activePartInfo = activePart && partsConfig?.[activePart];
-
   return (
     <group 
       ref={groupRef}

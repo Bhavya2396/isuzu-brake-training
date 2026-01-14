@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ChevronRight, ChevronLeft, Layers, Volume2, VolumeX, RotateCcw } from 'lucide-react';
 import { useStore } from '../../../store/useStore';
 import { trainingSteps, getStepByScreen } from '../../../data/steps';
