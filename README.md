@@ -129,12 +129,16 @@ npm run build
 
 ## 📝 Environment Variables
 
-Create `.env` file:
-```
+Create a `.env` file in the root directory:
+
+```bash
 VITE_GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-Current key: `AIzaSyDBL65576riSeT3wUPiiQykb5Apb7tzJp4`
+**Important**: 
+- Never commit your `.env` file to Git
+- Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+- The `.env` file is ignored by Git for security
 
 ## 🐛 Troubleshooting
 
