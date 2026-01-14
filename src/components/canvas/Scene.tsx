@@ -16,7 +16,7 @@ const modelConfigs = {
   'land-cruiser': {
     path: '/models/vehicles/land-cruiser/scene.gltf',
     scale: 1.0,
-    position: [0, -0.35, 0] as [number, number, number],
+    position: [0, 0.1, 0] as [number, number, number],
     rotation: [0, -30, 0] as [number, number, number],
     interactive: false,
     partsConfig: undefined
@@ -122,8 +122,8 @@ function CarLiftOverlay() {
 
   return (
     <group 
-      position={[0, -0.85, 0]} 
-      scale={0.45}
+      position={[-0.3, -1.1, 0]} 
+      scale={0.85}
       rotation={[0, Math.PI / 2, 0]}
     >
       <primitive object={clonedScene} />
