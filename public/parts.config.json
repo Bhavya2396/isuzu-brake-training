@@ -1,0 +1,108 @@
+{
+  "models": {
+    "vehicles": [
+      {
+        "id": "land-cruiser",
+        "name": "Toyota Land Cruiser 250",
+        "path": "/models/vehicles/land-cruiser/scene.gltf",
+        "scale": 1,
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "highlightParts": ["wheel", "brake", "tire"]
+      }
+    ],
+    "components": [
+      {
+        "id": "brake-assembly",
+        "name": "Disc Brake Assembly",
+        "path": "/models/components/brake-assembly/brake-assembly.gltf",
+        "scale": 8,
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "parts": {
+          "Brake_Pads_0": {
+            "label": "Brake Pads",
+            "description": "Friction material that clamps against the rotor to slow the vehicle",
+            "explodeDir": [0, 0.5, 0],
+            "explodeDistance": 0.3
+          },
+          "Brake_Disc_1": {
+            "label": "Brake Rotor",
+            "description": "Ventilated disc that the pads clamp onto to create friction",
+            "explodeDir": [0, 0, -1],
+            "explodeDistance": 0.4
+          },
+          "Brake_Caliper_2": {
+            "label": "Brake Caliper",
+            "description": "Houses pistons that push pads against the rotor",
+            "explodeDir": [0, 0.8, 0],
+            "explodeDistance": 0.5
+          }
+        }
+      },
+      {
+        "id": "wheel-brake",
+        "name": "Wheel with Brake Disc",
+        "path": "/models/components/wheel-brake/scene.gltf",
+        "scale": 3,
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "parts": {
+          "tire-low": {
+            "label": "Tire",
+            "description": "Rubber tire mounted on the wheel",
+            "explodeDir": [-1, 0, 0],
+            "explodeDistance": 0.5
+          },
+          "wheel-full": {
+            "label": "Wheel Rim",
+            "description": "Alloy wheel rim that holds the tire",
+            "explodeDir": [-0.5, 0, 0],
+            "explodeDistance": 0.3
+          },
+          "brake-caliper": {
+            "label": "Brake Caliper",
+            "description": "Caliper housing the brake pads",
+            "explodeDir": [0, 0.5, 0],
+            "explodeDistance": 0.4
+          },
+          "brake-disc": {
+            "label": "Brake Disc",
+            "description": "Rotor disc for braking",
+            "explodeDir": [0, 0, 0],
+            "explodeDistance": 0
+          }
+        }
+      }
+    ],
+    "tools": [
+      {
+        "id": "ratchet-wrench",
+        "name": "Socket Wrench",
+        "description": "Used to loosen and tighten lug nuts and caliper bolts",
+        "path": "/models/tools/scene.gltf",
+        "scale": 0.5,
+        "position": [-1, 0, 0],
+        "rotation": [0, 0, 0]
+      },
+      {
+        "id": "torque-wrench",
+        "name": "Torque Wrench",
+        "description": "Used to tighten bolts to manufacturer specifications",
+        "path": "/models/tools/torque-wrench/scene.gltf",
+        "scale": 0.3,
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0]
+      },
+      {
+        "id": "car-lift",
+        "name": "Car Lift / Jack Stand",
+        "description": "Safely lifts and supports the vehicle during brake service",
+        "path": "/models/tools/car-lift/scene.gltf",
+        "scale": 0.5,
+        "position": [1, 0, 0],
+        "rotation": [0, 0, 0]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	MXT MXT – Hydraulic torque wrench
+* source:	https://sketchfab.com/3d-models/mxt-mxt-hydraulic-torque-wrench-2d100dfd4bb947d4a6d6bcbcf4eb74ba
+* author:	HYTORC Benelux (https://sketchfab.com/mkessels)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MXT MXT – Hydraulic torque wrench" (https://sketchfab.com/3d-models/mxt-mxt-hydraulic-torque-wrench-2d100dfd4bb947d4a6d6bcbcf4eb74ba) by HYTORC Benelux (https://sketchfab.com/mkessels) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

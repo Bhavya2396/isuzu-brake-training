@@ -1,0 +1,712 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3365,
+      "max": [
+        0.012900070287287235,
+        0.021697072312235832,
+        0.12616820633411407
+      ],
+      "min": [
+        -0.0128224678337574,
+        -0.021697072312235832,
+        -0.12003254890441895
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 40380,
+      "componentType": 5126,
+      "count": 3365,
+      "max": [
+        1.0,
+        1.0,
+        0.9999998211860657
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3365,
+      "max": [
+        0.9999997615814209,
+        0.9999784231185913,
+        0.9999999403953552,
+        1.0
+      ],
+      "min": [
+        -0.9896652102470398,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3365,
+      "max": [
+        0.869629442691803,
+        0.9964963793754578
+      ],
+      "min": [
+        0.0035269614309072495,
+        0.0035036643967032433
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 26920,
+      "componentType": 5126,
+      "count": 3365,
+      "max": [
+        0.869629442691803,
+        0.9964963793754578
+      ],
+      "min": [
+        0.0035269614309072495,
+        0.0035036643967032433
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 17076,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 80760,
+      "componentType": 5126,
+      "count": 462,
+      "max": [
+        0.0015105083584785461,
+        0.01379266194999218,
+        0.003413147758692503
+      ],
+      "min": [
+        -0.0018419371917843819,
+        -0.0034786430187523365,
+        -0.01564796268939972
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 86304,
+      "componentType": 5126,
+      "count": 462,
+      "max": [
+        1.0,
+        0.9661579132080078,
+        0.9774342775344849
+      ],
+      "min": [
+        -1.0,
+        -0.977816641330719,
+        -0.9728198051452637
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 53840,
+      "componentType": 5126,
+      "count": 462,
+      "max": [
+        0.9814404845237732,
+        0.8865420818328857,
+        0.8069140315055847,
+        1.0
+      ],
+      "min": [
+        -0.9733312726020813,
+        -0.8890534043312073,
+        -0.8429141044616699,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 53840,
+      "componentType": 5126,
+      "count": 462,
+      "max": [
+        0.8869625926017761,
+        0.8436232209205627
+      ],
+      "min": [
+        0.43169882893562317,
+        0.5588898658752441
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 57536,
+      "componentType": 5126,
+      "count": 462,
+      "max": [
+        0.8869625926017761,
+        0.8436232209205627
+      ],
+      "min": [
+        0.43169882893562317,
+        0.5588898658752441
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 68304,
+      "componentType": 5125,
+      "count": 2352,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 91848,
+      "componentType": 5126,
+      "count": 1035,
+      "max": [
+        0.007710253819823265,
+        0.013403978198766708,
+        0.013432472944259644
+      ],
+      "min": [
+        -0.009576544165611267,
+        -0.01336679421365261,
+        -0.013368383049964905
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 104268,
+      "componentType": 5126,
+      "count": 1035,
+      "max": [
+        1.0,
+        1.0,
+        0.9980607032775879
+      ],
+      "min": [
+        -0.8483619093894958,
+        -0.9980294704437256,
+        -0.9980026483535767
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 61232,
+      "componentType": 5126,
+      "count": 1035,
+      "max": [
+        0.998680055141449,
+        1.0,
+        0.9967057108879089,
+        1.0
+      ],
+      "min": [
+        -0.9699119925498962,
+        -0.9364334940910339,
+        -0.9998680949211121,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 61232,
+      "componentType": 5126,
+      "count": 1035,
+      "max": [
+        0.8470284342765808,
+        0.816741943359375
+      ],
+      "min": [
+        0.2564105987548828,
+        0.017366498708724976
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 69512,
+      "componentType": 5126,
+      "count": 1035,
+      "max": [
+        0.8470284342765808,
+        0.816741943359375
+      ],
+      "min": [
+        0.2564105987548828,
+        0.017366498708724976
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 77712,
+      "componentType": 5125,
+      "count": 5136,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 116688,
+      "componentType": 5126,
+      "count": 358,
+      "max": [
+        0.0013039177283644676,
+        0.009024199098348618,
+        0.009024173021316528
+      ],
+      "min": [
+        -0.00038172584027051926,
+        -0.009024199098348618,
+        -0.00902421772480011
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 120984,
+      "componentType": 5126,
+      "count": 358,
+      "max": [
+        -0.28020310401916504,
+        0.959936261177063,
+        0.9599362015724182
+      ],
+      "min": [
+        -1.0,
+        -0.9599363207817078,
+        -0.959935188293457
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 77792,
+      "componentType": 5126,
+      "count": 358,
+      "max": [
+        0.44737303256988525,
+        0.9644755125045776,
+        0.9812991619110107,
+        1.0
+      ],
+      "min": [
+        -0.9599351286888123,
+        -0.9709373712539673,
+        -0.32132115960121155,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 77792,
+      "componentType": 5126,
+      "count": 358,
+      "max": [
+        0.523201584815979,
+        0.8485397696495056
+      ],
+      "min": [
+        0.1743432581424713,
+        0.583396852016449
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 80656,
+      "componentType": 5126,
+      "count": 358,
+      "max": [
+        0.523201584815979,
+        0.8485397696495056
+      ],
+      "min": [
+        0.1743432581424713,
+        0.583396852016449
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 98256,
+      "componentType": 5125,
+      "count": 1824,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Prince Obrymec (https://sketchfab.com/prince-obrymec)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/ratchet-wrench-e4167894763f4c839b4bf3c7f5e8a704",
+      "title": "Ratchet Wrench"
+    },
+    "generator": "Sketchfab-16.82.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 105552,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 83520,
+      "byteOffset": 105552,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 125280,
+      "byteOffset": 189072,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 83520,
+      "byteOffset": 314352,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 397872,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/ratchet_wrench_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/ratchet_wrench_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/ratchet_wrench_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "ratchet_wrench",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.2
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "body_ratchet_wrench_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "handle_ratchet_wrench_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "head_left_ratchet_wrench_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16
+          },
+          "indices": 17,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "head_right_ratchet_wrench_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 19,
+            "POSITION": 18,
+            "TANGENT": 20,
+            "TEXCOORD_0": 21,
+            "TEXCOORD_1": 22
+          },
+          "indices": 23,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "fa276484621e4c629999787179fe1103.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.371139006309477e-06,
+        -99.9999999999999,
+        0.0,
+        0.0,
+        99.9999999999999,
+        -4.371139006309477e-06,
+        0.0,
+        0.010664936155080795,
+        12.006063461303711,
+        -2.3900744849925104e-07,
+        1.0
+      ],
+      "name": "body"
+    },
+    {
+      "mesh": 0,
+      "name": "body_ratchet_wrench_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        -4.371139006309477e-06,
+        -99.9999999999999,
+        0.0,
+        0.0,
+        99.9999999999999,
+        -4.371139006309477e-06,
+        0.0,
+        -1.2615877389907837,
+        20.402076721191406,
+        0.0044413842260837555,
+        1.0
+      ],
+      "name": "handle"
+    },
+    {
+      "mesh": 1,
+      "name": "handle_ratchet_wrench_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.371139006309477e-06,
+        -99.9999999999999,
+        0.0,
+        0.0,
+        99.9999999999999,
+        -4.371139006309477e-06,
+        0.0,
+        2.1921396255493164,
+        22.46210479736328,
+        -0.008617609739303589,
+        1.0
+      ],
+      "name": "head_left"
+    },
+    {
+      "mesh": 2,
+      "name": "head_left_ratchet_wrench_0"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        -4.371139006309477e-06,
+        -99.9999999999999,
+        0.0,
+        0.0,
+        99.9999999999999,
+        -4.371139006309477e-06,
+        0.0,
+        -1.3857557773590088,
+        22.46169662475586,
+        -4.5080352606419183e-07,
+        1.0
+      ],
+      "name": "head_right"
+    },
+    {
+      "mesh": 3,
+      "name": "head_right_ratchet_wrench_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

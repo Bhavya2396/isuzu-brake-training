@@ -1,0 +1,8 @@
+Model Information:
+* title:	Ratchet Wrench
+* source:	https://sketchfab.com/3d-models/ratchet-wrench-e4167894763f4c839b4bf3c7f5e8a704
+* author:	Prince Obrymec (https://sketchfab.com/prince-obrymec)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

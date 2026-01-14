@@ -1,0 +1,11 @@
+Model Information:
+* title:	Car Disc Brake
+* source:	https://sketchfab.com/3d-models/car-disc-brake-9e2440a2fa624b31abd0963902217407
+* author:	Joko_P (https://sketchfab.com/joko_p)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Car Disc Brake" (https://sketchfab.com/3d-models/car-disc-brake-9e2440a2fa624b31abd0963902217407) by Joko_P (https://sketchfab.com/joko_p) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
