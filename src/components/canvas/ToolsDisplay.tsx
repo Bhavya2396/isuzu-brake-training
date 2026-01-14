@@ -15,7 +15,7 @@ interface Tool {
   rotation: [number, number, number];
 }
 
-// Tool configurations - PROPERLY SCALED to match car size
+// Tool configurations - ALL PROPERLY SCALED to match socket wrench
 const tools: Tool[] = [
   {
     id: 'ratchet-wrench',
@@ -31,7 +31,7 @@ const tools: Tool[] = [
     name: 'Torque Wrench',
     description: 'Ensures proper bolt tightening specifications',
     path: '/models/tools/torque-wrench/scene.gltf',
-    scale: 0.15, // MUCH BIGGER - now properly visible
+    scale: 0.7, // MASSIVE INCREASE - was 0.15, now ~5x bigger
     position: [0, 0.8, 0],
     rotation: [0, Math.PI / 4, 0]
   },
@@ -40,8 +40,8 @@ const tools: Tool[] = [
     name: 'Car Lift / Jack',
     description: 'Safely lifts vehicle for brake access',
     path: '/models/tools/car-lift/scene.gltf',
-    scale: 0.1, // MUCH BIGGER - 4x larger than before
-    position: [3.5, -0.3, 0],
+    scale: 0.5, // MASSIVE INCREASE - was 0.1, now 5x bigger
+    position: [3.5, -0.1, 0],
     rotation: [0, -Math.PI / 6, 0]
   }
 ];

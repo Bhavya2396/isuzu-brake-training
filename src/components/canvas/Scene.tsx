@@ -121,7 +121,7 @@ function CarLiftOverlay() {
   if (!showCarLift) return null;
 
   return (
-    <group position={[0, -0.5, 0]} scale={0.08}>
+    <group position={[0, -0.5, 0]} scale={0.4}>
       <primitive object={clonedScene} />
     </group>
   );
